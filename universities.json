@@ -1,0 +1,17 @@
+[
+   {
+    "id" : "01",
+    "name" : "Vaal University of Technology",
+    "slogan" :"Inspiring thought. Shaping talent.",
+    "type" :"public university",
+    "coursers" :["Dip: Analytical Chemistry (3 years)", "Dip: Biotechnology (3 years)","Dip: Environmental Science (3 years)" ,"Dip:Agricultural Management  (3 years)","Dip: Information Technology (3 years full time)","Dip: Extended Information Technology Programme (4 years full time)","Dip: Non-Destructive Testing","Bachelor of Health Sciences: Medical Laboratory Science (4 years)",
+                 "Financial Info. Systems " ,"Cost & Man. Accounting" ,"Internal Auditing","Human Resources Management","Logistics and Supply Chain Management","Marketing","Retail Business Management","Sport Management",
+                 "Diploma: Fashion, Photography, Graphic Design & Fine Art","Diploma: Food Service Management","Diploma: Tourism Management","Diploma: Public Relations","Diploma: Ecotourism Management","Diploma:Legal Assistance","Diploma:Labour Law" ,"Diploma: Safety Management","Diploma: Policing" ,"B Ed (Senior Phase & FET Teaching)","Bachelor of Communication Studies",
+                 "Chemical Engineering","Civil Engineering","Industrial Engineering","Mechanical Engineering","Metallurgical Engineering","Electronic Engineering","Power Engineering","Process Control Engineering","Computer Systems Engineering","Operations Management","Electrical Engineering","Power Engineering","Process Control Engineering","Computer Systems Engineering"],
+     "Ranking" :"22",
+     "location":"Vanderbijlpark"
+    }
+
+    
+
+]
