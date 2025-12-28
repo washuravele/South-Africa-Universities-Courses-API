@@ -6,15 +6,14 @@ import bodyParser from "body-parser";
 const app = e();
 const port = 4000;
 
-/*universities json*/
+/*universities coursers json*/
 const data1 = fs.readFileSync('./courses.json','utf-8');
 const universitiesCoursers = JSON.parse(data1);
 
 
-console.log(universitiesCoursers);
 
 //all uni coursers
-app.get("/universitiesCoursers",(req,res)=>{2
+app.get("/universitiesCoursers",(req,res)=>{
    res.json(universitiesCoursers);
 });
 
@@ -46,6 +45,26 @@ app.get("/university/:uniName/:faculty", (req, res) => {
 });
 
 
+// universities infor
+const data2 = fs.readFileSync('./universities.json','utf-8');
+const universitiesInfor = JSON.parse(data2);
+
+//all universities information 
+app.get("/universities-Infor",(req,res)=>{
+   res.json(universitiesInfor);
+});
+
+//get a specific uni  courses + facults
+app.get("/university-Infor/:acronym", (req, res) => {
+  const universityAcronym = req.params.acronym;
+  
+  // Assuming universitiesCoursers is an array of objects
+  const foundUniversity = universitiesInfor.filter(
+    (university) => university.acronym === universityAcronym
+  );
+
+  res.json(foundUniversity);
+});
 
 
 
