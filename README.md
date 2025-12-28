@@ -40,11 +40,12 @@ This API is designed for **frontend applications**, **career guidance platforms*
 ---
 
 ## 📁 Project Structure
-├── courses.json # Universities, faculties & course data
-├── universities.json # Universities general information
-├── index.js # Express server
-├── package.json
-└── README.md
+
+├── courses.json # Universities, faculties & course data          
+├── universities.json # Universities general information            
+├── index.js # Express server                  
+├── package.json                        
+└── README.md                     
 
 
 ---
