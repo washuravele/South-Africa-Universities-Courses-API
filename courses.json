@@ -372,6 +372,7 @@
 {
   "id": "01",
   "name": "Vaal University of Technology",
+  "acronym": "vut",
   "Faculty": "Faculty of Engineering & Technology",
   "Department": "Department of Electrical Engineering",
   "courses": [
